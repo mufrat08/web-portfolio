@@ -1,0 +1,72 @@
+body{
+    font-family: 'Markazi Text', serif;
+    margin: 0px;
+}
+h1{
+    font-size: 45px;
+    
+}
+.orange-highl{
+    color: #00ced1;
+}
+.half-width {
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 3%;
+     
+}
+.half-width img{
+    width: 100%;
+}
+.top-banner{
+    background-image: url("images/top-banner.png");
+    background-repeat: no-repeat;
+}
+section{
+    height: 500px;
+    padding-bottom: 100px;
+}
+h2{
+    font-size: 40px;
+}
+p{
+    color: #8d8a8a;
+}
+.link-button{
+    text-decoration: none;
+    background-image: linear-gradient(#e2cd0a, #f06e04);
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 500;
+}
+.dream-area{
+   background-image: url("images/dream-bg.png" );
+   background-repeat: no-repeat;
+   background-position: right;
+} 
+.single-experience{
+  box-shadow: 10px 10px 40px rgb(129, 121, 121); 
+  border-radius: 7px; 
+  height: 80%;
+  background-color: white;
+}
+.experience-ara{
+    background-image: url("images/exp-bg.png");
+    background-repeat: no-repeat;
+}
+#full-stack{
+    border-left: 7px solid;
+    border-image: linear-gradient(rgb(200, 233, 12), lightSalmon);
+    border-image-slice: 1;
+}
+#normal-stack{
+    border-left: 7px solid;
+    border-image: linear-gradient(#47fff0, #11da65);
+    border-image-slice: 1;
+}
+footer p{
+    text-align: center;
+    font-size: 20px;
+}
